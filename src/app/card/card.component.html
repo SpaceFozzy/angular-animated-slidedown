@@ -1,4 +1,4 @@
-<button type="button" (click)="toggleDetails()">Toggle Details {{areDetailsVisible}}</button>
+<button type="button" (click)="toggleDetails()">Toggle Details</button>
  <div class="col-card__content-div">
   <div [@detailsContentAnimation]="areDetailsVisible" class="card-block">
     <ng-content select=".col-card__contentselector--body"></ng-content>
